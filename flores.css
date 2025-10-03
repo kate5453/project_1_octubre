@@ -125,7 +125,7 @@
   /* Estilos específicos para dispositivos con un ancho máximo de 600px */
   .titulo {
     /* background-color: seagreen; */
-        font-size: 30px;
+        font-size: 35px;
         margin: 1rem;
         margin-bottom: 12%;
         margin-top: -1rem;
@@ -1821,7 +1821,7 @@ h1 {
 
 @media screen and (max-width: 400px) {
   .flowers {
-    transform: scale(1); /* Reducir todo el bloque de flores */
+    transform: scale(1.1); /* Reducir todo el bloque de flores */
     bottom: -10vh;
   }
 }
