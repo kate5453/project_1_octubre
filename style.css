@@ -53,11 +53,11 @@ body {
     flex-grow: 1;
     /* height: 300px; */
     overflow-y: auto;
-    /* margin-bottom: 10px; */
 }
 
 .chat-message {
     margin: 5px 0;
+    margin-bottom: 15px;
 }
 
 /* ***************************************** */
