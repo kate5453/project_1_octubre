@@ -1821,7 +1821,7 @@ h1 {
 
 @media screen and (max-width: 400px) {
   .flowers {
-    transform: scale(0.95); /* Reducir todo el bloque de flores */
+    transform: scale(1); /* Reducir todo el bloque de flores */
     bottom: -10vh;
   }
 }
