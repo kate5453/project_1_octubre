@@ -247,7 +247,7 @@ Y por favor... toma agüita, duerme cuando puedas y no te olvides de disfrutar e
             // audio.play().catch(() => {
             //     console.log('El navegador bloqueó el autoplay del audio de Luffy.');
             // });
-            cambiarMusica('luffy-audio');
+            // cambiarMusica('luffy-audio');
         }
 
         escribirCartaLuffy(letterContainer, letterText);

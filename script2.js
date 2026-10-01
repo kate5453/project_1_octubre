@@ -234,6 +234,8 @@ function showSurprise() {
                 regalo.style.opacity = '1';
                 regalo.style.display = 'flex';
             }, 3000);
+        }else if(window.scrollY >= (Window.innerHeight*2)){ //Cuando hizo scroll a la segunda ventana
+            cambiarMusica('luffy-audio');
         }
     });
 
