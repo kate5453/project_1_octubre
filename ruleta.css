@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+        @import url('https://fonts.googleapis.com/css?family=Chewy');
+
+        /* body {
+            text-align: center;
+            font-family: 'Source Sans Pro', sans-serif;
+            background-color: #f0f0f0;
+        } */
+
+        h1 {
+            font-family: 'Chewy', cursive;
+            font-size: 30px;
+            color: black;
+        }
+
+        #ruleta-container {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            margin: 0 auto;
+        }
+
+
+        #puntero {
+            position: absolute;
+            width: 80px;
+            top: 90px;
+            left: 110px;
+        }
+
+        #puntero:hover{
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: transform .1s ease-in-out;
+        }
+
+        #resultado {
+            margin-top: 20px;
+            font-size: 1.5rem;
+            display: none;
+            color: black;
+
+            font-weight: bold;
+            opacity: 0;
+            transition: all 2s ease-out;
+        }
+
+        .reclamar-btn {
+            background-color: #FF5722;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            display: none;
+
+            margin: 20px auto;
+            font-size: 1rem;
+
+            animation: heart-beat 1.5s ease-in-out infinite;
+        }
+
+        .reclamar-btn a{
+            text-decoration: none;
+            color: white;
+        }
+
+        @keyframes heart-beat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+        }
+
+        .reclamar-btn:hover{
+            background-color: #ff8d22;
+            transition: background-color .3s ease-in;
+
+            /* border: 1px solid #111; */
+            box-shadow: 4px 5px 10px rgba(27, 27, 27, 0.4);
+        }
+
+/* RULETA */
+#ruleta {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: all 10s ease-out;
+
+    position: relative;
+    font-size: 14px;
+    overflow: hidden;
+    border-radius: 100%;
+    transition-property: transform;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+}
+
+#ruleta .roulette-section {
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    transform-origin: 0% 100%;
+
+    border: 2px black solid;
+}
+
+#ruleta .roulette-section .roulette-section-container {
+    position: absolute;
+    left: -100%;
+    width: 200%;
+    height: 200%;
+    text-align: center;
+    padding-top: 35px;
+    transform: skewY(60deg) rotate(15deg);
+    -webkit-transform: skewY(60deg) rotate(15deg);
+    -moz-transform: skewY(60deg) rotate(15deg);
+    -ms-transform: skewY(60deg) rotate(15deg);
+    -o-transform: skewY(60deg) rotate(15deg);
+
+    background-color: #f1b041;
+    font-weight: bold;
+}
+
+/* Clase que se aplicará a la sección ganadora */
+.seccion-ganadora {
+    background-color: #0084ff; /* Color amarillo de ejemplo */
+    transition: background-color 0.5s ease;
+}
+
+
+#ruleta .roulette-section .roulette-section-container p {
+    margin-top: 30px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+}
+
+
+/* ruleta-rotation */
+#ruleta .roulette-section:first-child {
+    transform: rotate(0deg) skewY(-60deg);
+    -webkit-transform: rotate(0deg) skewY(-60deg);
+    -moz-transform: rotate(0deg) skewY(-60deg);
+    -ms-transform: rotate(0deg) skewY(-60deg);
+    -o-transform: rotate(0deg) skewY(-60deg);
+}
+
+#ruleta .roulette-section:nth-child(2) {
+    transform: rotate(30deg) skewY(-60deg);
+    -webkit-transform: rotate(30deg) skewY(-60deg);
+    -moz-transform: rotate(30deg) skewY(-60deg);
+    -ms-transform: rotate(30deg) skewY(-60deg);
+    -o-transform: rotate(30deg) skewY(-60deg);
+}
+
+#ruleta .roulette-section:nth-child(3) {
+    transform: rotate(60deg) skewY(-60deg);
+    -webkit-transform: rotate(60deg) skewY(-60deg);
+    -moz-transform: rotate(60deg) skewY(-60deg);
+    -ms-transform: rotate(60deg) skewY(-60deg);
+    -o-transform: rotate(60deg) skewY(-60deg);
+}
+
+#ruleta .roulette-section:nth-child(4) {
+    transform: rotate(90deg) skewY(-60deg);
+    -webkit-transform: rotate(90deg) skewY(-60deg);
+    -moz-transform: rotate(90deg) skewY(-60deg);
+    -ms-transform: rotate(90deg) skewY(-60deg);
+    -o-transform: rotate(90deg) skewY(-60deg);
+}
+
+#ruleta .roulette-section:nth-child(5) {
+    transform: rotate(120deg) skewY(-60deg);
+    -webkit-transform: rotate(120deg) skewY(-60deg);
+    -moz-transform: rotate(120deg) skewY(-60deg);
+    -ms-transform: rotate(120deg) skewY(-60deg);
+    -o-transform: rotate(120deg) skewY(-60deg);
+}
+
+#ruleta .roulette-section:nth-child(6) {
+    transform: rotate(150deg) skewY(-60deg);
+    -webkit-transform: rotate(150deg) skewY(-60deg);
+    -moz-transform: rotate(150deg) skewY(-60deg);
+    -ms-transform: rotate(150deg) skewY(-60deg);
+    -o-transform: rotate(150deg) skewY(-60deg);
+}
+
+#ruleta .roulette-section:nth-child(7) {
+    transform: rotate(180deg) skewY(-60deg);
+    -webkit-transform: rotate(180deg) skewY(-60deg);
+    -moz-transform: rotate(180deg) skewY(-60deg);
+    -ms-transform: rotate(180deg) skewY(-60deg);
+    -o-transform: rotate(180deg) skewY(-60deg);
+}
+
+#ruleta .roulette-section:nth-child(8) {
+    transform: rotate(210deg) skewY(-60deg);
+    -webkit-transform: rotate(210deg) skewY(-60deg);
+    -moz-transform: rotate(210deg) skewY(-60deg);
+    -ms-transform: rotate(210deg) skewY(-60deg);
+    -o-transform: rotate(210deg) skewY(-60deg);
+}
+
+#ruleta .roulette-section:nth-child(9) {
+    transform: rotate(240deg) skewY(-60deg);
+    -webkit-transform: rotate(240deg) skewY(-60deg);
+    -moz-transform: rotate(240deg) skewY(-60deg);
+    -ms-transform: rotate(240deg) skewY(-60deg);
+    -o-transform: rotate(240deg) skewY(-60deg);
+}
+
+#ruleta .roulette-section:nth-child(10) {
+    transform: rotate(270deg) skewY(-60deg);
+    -webkit-transform: rotate(270deg) skewY(-60deg);
+    -moz-transform: rotate(270deg) skewY(-60deg);
+    -ms-transform: rotate(270deg) skewY(-60deg);
+    -o-transform: rotate(270deg) skewY(-60deg);
+}
+
+#ruleta .roulette-section:nth-child(11) {
+    transform: rotate(300deg) skewY(-60deg);
+    -webkit-transform: rotate(300deg) skewY(-60deg);
+    -moz-transform: rotate(300deg) skewY(-60deg);
+    -ms-transform: rotate(300deg) skewY(-60deg);
+    -o-transform: rotate(300deg) skewY(-60deg);
+}
+
+#ruleta .roulette-section:nth-child(12) {
+    transform: rotate(330deg) skewY(-60deg);
+    -webkit-transform: rotate(330deg) skewY(-60deg);
+    -moz-transform: rotate(330deg) skewY(-60deg);
+    -ms-transform: rotate(330deg) skewY(-60deg);
+    -o-transform: rotate(330deg) skewY(-60deg);
+}
+
+
+/* colors ruelta */
+/* #ruleta .roulette-section:first-child .roulette-section-container {
+    background: #df0978; 
+}
+#ruleta .roulette-section:nth-child(2) .roulette-section-container {
+	background: #8d078d; 
+}
+#ruleta .roulette-section:nth-child(3) .roulette-section-container {
+	background: #3a63ba; 
+}
+#ruleta .roulette-section:nth-child(4) .roulette-section-container {
+	background: #4fa1de;  
+}
+#ruleta .roulette-section:nth-child(5) .roulette-section-container {
+	background: #23bb23;  
+}
+#ruleta .roulette-section:nth-child(6) .roulette-section-container {
+	background: #46b545;  
+}
+#ruleta .roulette-section:nth-child(7) .roulette-section-container {
+	background: #88c740;  
+}
+#ruleta .roulette-section:nth-child(8) .roulette-section-container {
+	background: #f2f215;  
+}
+#ruleta .roulette-section:nth-child(9) .roulette-section-container {
+	background: #f1b041;  
+}
+#ruleta .roulette-section:nth-child(10) .roulette-section-container {
+	background: #e35825;  
+}
+#ruleta .roulette-section:nth-child(11) .roulette-section-container {
+	background: #e01423;  
+}
+#ruleta .roulette-section:nth-child(12) .roulette-section-container {
+	background: #ffae00;  
+} */
