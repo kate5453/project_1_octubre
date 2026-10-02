@@ -10,7 +10,7 @@
 
         <div class="luffy-intro" id="luffy-intro">
             <div class="luffy-intro-glow"></div>
-            <img src="./img/torta.gif" alt="Luffy preparando una sorpresa" class="luffy-intro-img">
+            <img src="./img/luffy.gif" alt="Luffy preparando una sorpresa" class="luffy-intro-img">
             <p class="luffy-intro-text">Preparando una sorpresa... 🌻</p>
         </div>
 
