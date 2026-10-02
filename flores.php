@@ -14,8 +14,8 @@
       
     </div>
     
-    <h1 id="titulo" class="titulo">Muchos pueden dar flores que durarán días, estas, son para siempre :D <br> <br>
-      <span class="">Gracias por iluminar mis días con tu presencia.<span></h1>
+    <h1 id="titulo" class="titulo">Espero hasta descansado aunque sea un poco, feliz día XD <br> <br>
+      <span class="">En diiembre Doomsday? JAJAJA.<span></h1>
     <div class="night"></div>
     <div class="flowers" id="flowers">
       <div class="flower flower--1">

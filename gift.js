@@ -207,17 +207,19 @@ function iniciarCartaLuffy() {
         return;
     }
 
-    const letterText = `Querida Mili 💛,
+    const letterText = `Hola Mili, FELIZZZ CUMPLEAÑOSS 💛,
 
 Así como los girasoles siempre buscan la luz para seguir creciendo, espero que nunca olvides todo lo que has crecido tú. 🌻
 
-Sé que estás dándolo todo entre tu trabajo, tu último ciclo y ese último taller de arquitectura que ya debe tenerte al límite 😂. Pero quiero que sepas que estoy muy orgullosa de ti y de todo lo que estás logrando.
+Sé que debes estar dándolo todo entre tu trabajo y ese último taller de arquitectura que ya debe tenerte al límite 😂 que ya ni tiempo tienes. Pero quiero que sepas que estoy muy orgullosa de ti y de todo lo que estás logrando.
 
-Aunque estemos lejos y nuestros caminos estén un poquito en modo 3D2Y, siempre voy a estar aquí apoyándote desde mi isla. 🥹
+Aunque estemos lejos y nuestros caminos estén un poquito en modo 3D2Y, quería desearte un feliz cumpleaños y espero hayas descansado aunque sea 1 horita xd, a nada. 🥹
 
-Ya casi llegas al final de esta aventura, futura arquitecta. ❤️
+Ya el final de la Grand Line, feliz cumpleaños arquitecta. ❤️
 
-Y por favor... toma agüita, duerme cuando puedas y no te olvides de disfrutar el camino. 🌻`;
+Psdta: --> Tu regalo te espera aquí XD.  Esta página es solo una pequeña parte, es que no quería que olvidaras tu cumpleaños.
+
+Te extrañamos, pero seguimos aquí, cuídate 🌻. FELIZ CUMPLEAÑOS MILII`;
 
     let typingTimer = null;
 
