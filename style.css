@@ -64,7 +64,7 @@ body {
 /* Añadido para el efecto de "escribiendo" */
 .typing::after {
     content: "⠿⠿⠿";
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #888;
     animation: blink .5s steps(1) infinite;
 }

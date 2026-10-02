@@ -49,7 +49,7 @@
   #lyrics {
       font-size: 1.6rem; /* Reduce el tamaño del texto para dispositivos más pequeños */
       margin: 5%;
-      margin-top: -10%;
+      /* margin-top: -10%; */
       margin-bottom: 10%;
       letter-spacing: 3px;
       text-align: center;
@@ -61,7 +61,7 @@
   #lyrics {
       font-size: 1.6rem; /* Reduce el tamaño del texto para dispositivos más pequeños */
       margin: 2%;
-      margin-top: -15%;
+      /* margin-top: -15%; */
       margin-bottom: 15%;
       letter-spacing: 3px;
       text-align: center;

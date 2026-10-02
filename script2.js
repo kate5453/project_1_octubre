@@ -207,6 +207,7 @@ function showSurprise() {
         desliza.classList.add('show'); // Añadir la clase 'show' para que se deslice
     }, 1500);
     
+    let secondWindow = window.innerHeight * 2;
     // Hacer visibles los elementos de saludo y descripción cuando se desplace
     window.addEventListener('scroll', function() {
         const flores = document.querySelector('.flores');
@@ -214,12 +215,16 @@ function showSurprise() {
         const flowers = this.document.querySelector('#flowers');
         const floresAudio = document.getElementById('flores-audio'); //Obtener elemento audio de las flores
 
+
         console.log(window.scrollY);
         console.log(window.innerHeight);
-        if (window.scrollY >= window.innerHeight) {  // Mostrar cuando se deslice hacia abajo
+        console.log(secondWindow);
+        if (window.scrollY >= window.innerHeight && window.scrollY < secondWindow) {  // Mostrar cuando se deslice hacia abajo
             audio.pause();
 
-            cambiarMusica('flores-audio');
+            if(window.scrollY >= window.innerHeight){
+            cambiarMusica('flores-audio'); }
+
             floresAudio.volume = 1.0;
             //Reproducir el audio de las flores
             // floresAudio.play(); //Iniciar el audio de las flores
@@ -235,7 +240,13 @@ function showSurprise() {
                 regalo.style.opacity = '1';
                 regalo.style.display = 'flex';
             }, 3000);
-        }else if(window.scrollY >= (Window.innerHeight*2)){ //Cuando hizo scroll a la segunda ventana
+        }else if(window.scrollY >= secondWindow){ //Cuando hizo scroll a la segunda ventana
+            console.log("segunda ventana");
+            // if(document.querySelector('.luffy-container')){
+            //     console.log('existe luffy');
+            // // }
+            // if(window.scrollY >= secondWindow){
+            // cambiarMusica('luffy-audio'); }
             cambiarMusica('luffy-audio');
         }
     });

@@ -39,7 +39,7 @@
 
         </div>
 
-        <audio id="luffy-audio" src="./audio/luffy.mp3" preload="auto"></audio>
+        <audio id="luffy-audio" src="./audio/luffy.mp3" preload="auto" loop></audio>
     </div>
 </body>
 </html>
