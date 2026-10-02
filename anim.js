@@ -8,7 +8,7 @@ lyrics.style.opacity = 0;
 
 var lyricsData = [
   { text: "Mira las estrellas", time: 2 }, // el primero se mantiene igual
-  { text: "Mira como brillan por ti 💫", time: 3 },
+  { text: "Mira como brillan por ti 💫", time: 4 },
   { text: "Y por todo lo que haces", time: 11 },
   { text: "Aquí, tus flores amarillas 💛", time: 15 },
   { text: "Yo dudaba", time: 17 },
@@ -17,7 +17,7 @@ var lyricsData = [
   { text: "Aquí, tus flores amarillas 💛", time: 33 },
   { text: "Entonces tomé mi laptop", time: 38 },
   { text: "Oh, me pregunto si estarás libre hoy", time: 44 },
-  { text: "Si extraño caminar contigo", time: 51 },
+  { text: "Si extraño caminar contigo", time: 50 },
   { text: "Tu sabes, porque tú, sabes que te extraño 💛", time: 58 },
   { text: "Y aunque no te lo digo con palabras", time: 64 },
   { text: "Quiero que sepas, que te quiero tanto", time: 68 },
