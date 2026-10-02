@@ -220,6 +220,7 @@ function showSurprise() {
             audio.pause();
 
             cambiarMusica('flores-audio');
+            floresAudio.volume = 1.0;
             //Reproducir el audio de las flores
             // floresAudio.play(); //Iniciar el audio de las flores
             flores.style.opacity = '1';

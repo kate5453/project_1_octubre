@@ -24,6 +24,7 @@
                            playsinline
                            muted
                            autoplay
+                           loop
                            preload="auto"
                            class="luffy-video"></video>
                 </div>
