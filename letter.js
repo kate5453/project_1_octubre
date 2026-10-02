@@ -19,7 +19,7 @@ $(document).ready(function () {
         })
         .mouseleave(function () {
             // Restaurar el texto y ocultar el gato
-            $(".text").html("Pasa el <br> mouse");
+            $(".text").html("Haz <br> cick");
             $(".gato").fadeOut();
 
             $(".card").stop().animate(

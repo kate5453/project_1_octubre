@@ -228,6 +228,16 @@ function showSurprise() {
             floresAudio.volume = 1.0;
             //Reproducir el audio de las flores
             // floresAudio.play(); //Iniciar el audio de las flores
+            if(floresAudio){
+                floresAudio.addEventListener('ended', ()=>{
+                    const desliza = document.querySelector('#desliza--flores');
+
+                    if(desliza){
+                        desliza.style.display = 'block';
+                        desliza.classList.add('show');
+                    }
+                });
+            }
             flores.style.opacity = '1';
             titulo.classList.add('titulo');
 

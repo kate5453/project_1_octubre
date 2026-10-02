@@ -7,7 +7,7 @@ lyrics.style.opacity = 0;
 
 
 var lyricsData = [
-  { text: "Mira las estrellas", time: 2 }, // el primero se mantiene igual
+  { text: "Mira las estrellas", time: 1 }, // el primero se mantiene igual
   { text: "Mira como brillan por ti 💫", time: 4 },
   { text: "Y por todo lo que haces", time: 11 },
   { text: "Aquí, tus flores amarillas 💛", time: 15 },
@@ -15,31 +15,31 @@ var lyricsData = [
   { text: "Si esto podría gustarte a ti", time: 21 },
   { text: "Estoy admirando todas las cosas que haces", time: 27 },
   { text: "Aquí, tus flores amarillas 💛", time: 33 },
-  { text: "Entonces tomé mi laptop", time: 38 },
+  { text: "Entonces tomé mi laptop", time: 39 },
   { text: "Oh, me pregunto si estarás libre hoy", time: 44 },
   { text: "Si extraño caminar contigo", time: 50 },
   { text: "Tu sabes, porque tú, sabes que te extraño 💛", time: 58 },
   { text: "Y aunque no te lo digo con palabras", time: 64 },
   { text: "Quiero que sepas, que te quiero tanto", time: 68 },
   { text: "Mantengo tu recuerdo en una fotografía", time: 78 },
-  { text: "Y hemos creado recuerdos cada una por nosotras mismas", time: 82 },
+  { text: "Y hemos creado recuerdos cada una por nosotras mismas", time: 81 },
   { text: "Donde nuestros ojos nunca se cierran", time: 84 },
   { text: "Nuestros corazones nunca se rompen", time: 86 },
   { text: "Y el tiempo siempre no se detiene", time: 89 },
   { text: "Así que quiero decirte", time: 91 },
-  { text: "No conozco persona más elegante al vestir", time: 94 },
+  { text: "No conozco persona más elegante al vestir", time: 95 },
   { text: "Te esfuerzas tanto en tu carrera que parece irreal", time: 102 },
   { text: "Me inspiras a seguir", time: 107 },
   { text: "Y cuando te gradúes", time: 110 },
-  { text: "Oh, te juro estaré ahí CHILI", time: 113 },
+  { text: "Oh, te juro estaré ahí CHILI", time: 114 },
   { text: "Sé que llegarás lejos, y si me permites quiero seguir a tu lado", time: 119 },
   { text: "Cumplir nuestros de sueños de viajar", time: 124 },
-  { text: "Hasta que coincidamos un día", time: 127 },
+  { text: "Hasta que coincidamos un día", time: 126 },
   { text: "Hasta que coincidamos en vacaciones", time: 132 },
   { text: "Hasta que coincidamos te daré tu regalo, 🎁XD", time: 136 },
-  { text: "Estamos lejos", time: 140 },
-  { text: "Pero mantengo tu recuerdo a través del teléfono", time: 143 },
-  { text: "Hasta que coincidamos un día", time: 147 }
+  { text: "Estamos lejos", time: 139 },
+  { text: "Pero mantengo tu recuerdo a través del teléfono", time: 142 },
+  { text: "Hasta que coincidamos un día", time: 148 }
 ];
 
 
